@@ -1,0 +1,217 @@
+{
+    "events": [
+        {
+            "detail": {
+                "step": 0,
+                "kind": "start",
+                "firstAgent": -1,
+                "secondAgent": -1,
+                "message": "2명 유지 · 경로 생성 2명 · 미계획 0명",
+                "method": "",
+                "milliseconds": 0.0
+            },
+            "before": [],
+            "after": []
+        },
+        {
+            "detail": {
+                "step": 1,
+                "kind": "stop",
+                "firstAgent": 0,
+                "secondAgent": 1,
+                "message": "같은 칸 진입을 이동 전에 차단했습니다.",
+                "method": "",
+                "milliseconds": 0.0
+            },
+            "before": [
+                {
+                    "agentId": 0,
+                    "x": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "y": [
+                        2,
+                        2,
+                        2,
+                        2,
+                        2
+                    ]
+                },
+                {
+                    "agentId": 1,
+                    "x": [
+                        4,
+                        3,
+                        2,
+                        1,
+                        0
+                    ],
+                    "y": [
+                        2,
+                        2,
+                        2,
+                        2,
+                        2
+                    ]
+                }
+            ],
+            "after": []
+        },
+        {
+            "detail": {
+                "step": 1,
+                "kind": "replanning",
+                "firstAgent": -1,
+                "secondAgent": -1,
+                "message": "재계획 1/6 · 도착 0명은 고정 장애물로 유지",
+                "method": "",
+                "milliseconds": 0.0
+            },
+            "before": [],
+            "after": []
+        },
+        {
+            "detail": {
+                "step": 1,
+                "kind": "attempt",
+                "firstAgent": -1,
+                "secondAgent": -1,
+                "message": "IndependentAStar + CooperativeAStar 복구 성공",
+                "method": "IndependentAStar + CooperativeAStar 복구",
+                "milliseconds": 7.4
+            },
+            "before": [],
+            "after": []
+        },
+        {
+            "detail": {
+                "step": 1,
+                "kind": "resume",
+                "firstAgent": -1,
+                "secondAgent": -1,
+                "message": "새 경로 검증 완료 · 자동 재개",
+                "method": "IndependentAStar + CooperativeAStar 복구",
+                "milliseconds": 0.0
+            },
+            "before": [
+                {
+                    "agentId": 0,
+                    "x": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "y": [
+                        2,
+                        2,
+                        2,
+                        2,
+                        2
+                    ]
+                },
+                {
+                    "agentId": 1,
+                    "x": [
+                        4,
+                        3,
+                        2,
+                        1,
+                        0
+                    ],
+                    "y": [
+                        2,
+                        2,
+                        2,
+                        2,
+                        2
+                    ]
+                }
+            ],
+            "after": [
+                {
+                    "agentId": 0,
+                    "x": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "y": [
+                        2,
+                        2,
+                        2,
+                        2,
+                        2
+                    ]
+                },
+                {
+                    "agentId": 1,
+                    "x": [
+                        4,
+                        3,
+                        3,
+                        2,
+                        2,
+                        1,
+                        0
+                    ],
+                    "y": [
+                        2,
+                        2,
+                        3,
+                        3,
+                        2,
+                        2,
+                        2
+                    ]
+                }
+            ]
+        },
+        {
+            "detail": {
+                "step": 4,
+                "kind": "arrived",
+                "firstAgent": 0,
+                "secondAgent": -1,
+                "message": "Agent 0 도착 · 목표 칸 (4, 2) 영구 점유",
+                "method": "",
+                "milliseconds": 0.0
+            },
+            "before": [],
+            "after": []
+        },
+        {
+            "detail": {
+                "step": 6,
+                "kind": "arrived",
+                "firstAgent": 1,
+                "secondAgent": -1,
+                "message": "Agent 1 도착 · 목표 칸 (0, 2) 영구 점유",
+                "method": "",
+                "milliseconds": 0.0
+            },
+            "before": [],
+            "after": []
+        },
+        {
+            "detail": {
+                "step": 6,
+                "kind": "complete",
+                "firstAgent": -1,
+                "secondAgent": -1,
+                "message": "전체 2명 도착 · 복구 1회",
+                "method": "",
+                "milliseconds": 0.0
+            },
+            "before": [],
+            "after": []
+        }
+    ]
+}

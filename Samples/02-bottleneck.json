@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "width": 12,
+  "height": 12,
+  "blockedCells": "101111010001001100110010000110010100011100010000100000000000000000001001010000000100111100010000000101010000001110011100000101010001011100010000",
+  "seed": 23,
+  "placementSeed": 42,
+  "algorithm": 1,
+  "maxTimeSteps": 256,
+  "maxExpandedNodesPerAgent": 100000,
+  "maxHighLevelNodes": 10000,
+  "maxPlanningMilliseconds": 60000,
+  "priorityMode": 0,
+  "cbsHeuristic": 0,
+  "pythonExecutable": null,
+  "primalScriptPath": null,
+  "mapTemplate": 3,
+  "bottleneckCount": 2,
+  "passageWidth": 3,
+  "distribution": 0,
+  "profile": {
+    "Heuristic": 0,
+    "Weight": 1,
+    "Neighbors": 0,
+    "TieBreak": 0,
+    "DistanceWeight": 1,
+    "CongestionWeight": 3,
+    "NarrownessWeight": 2,
+    "WaitWeight": 2,
+    "RecoveryWeight": 3,
+    "Seed": 23,
+    "AllowWait": true
+  },
+  "obstacleDensity": 0.2,
+  "agents": [
+    {
+      "id": 0,
+      "startX": 5,
+      "startY": 6,
+      "goalX": 4,
+      "goalY": 4
+    },
+    {
+      "id": 1,
+      "startX": 10,
+      "startY": 0,
+      "goalX": 11,
+      "goalY": 6
+    },
+    {
+      "id": 2,
+      "startX": 5,
+      "startY": 4,
+      "goalX": 10,
+      "goalY": 3
+    },
+    {
+      "id": 3,
+      "startX": 3,
+      "startY": 5,
+      "goalX": 7,
+      "goalY": 4
+    },
+    {
+      "id": 4,
+      "startX": 11,
+      "startY": 7,
+      "goalX": 11,
+      "goalY": 9
+    },
+    {
+      "id": 5,
+      "startX": 11,
+      "startY": 4,
+      "goalX": 2,
+      "goalY": 5
+    },
+    {
+      "id": 6,
+      "startX": 5,
+      "startY": 2,
+      "goalX": 10,
+      "goalY": 10
+    },
+    {
+      "id": 7,
+      "startX": 5,
+      "startY": 5,
+      "goalX": 8,
+      "goalY": 1
+    }
+  ],
+  "replay": null
+}

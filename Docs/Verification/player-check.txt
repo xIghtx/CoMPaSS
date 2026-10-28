@@ -1,0 +1,1 @@
+PASS: Unity GUI, safe recovery, map/paired export, 32-agent preview at 1280x720, four-case campaign cancellation/resume/checkpoint.

@@ -1,0 +1,37 @@
+scenario IndependentAStar      n= 4 seed=  0: Completed, raw=False, t=12, recovery=1
+scenario IndependentAStar      n= 4 seed= 23: Completed, raw=True, t=11, recovery=0
+scenario IndependentAStar      n= 4 seed=921: Completed, raw=False, t=15, recovery=1
+scenario IndependentAStar      n= 8 seed=  0: Completed, raw=False, t=14, recovery=1
+scenario IndependentAStar      n= 8 seed= 23: Completed, raw=False, t=18, recovery=1
+scenario IndependentAStar      n= 8 seed=921: Completed, raw=False, t=13, recovery=1
+scenario IndependentAStar      n=16 seed=  0: Completed, raw=False, t=20, recovery=1
+scenario IndependentAStar      n=16 seed= 23: Failed, raw=False, t=0, recovery=1
+scenario IndependentAStar      n=16 seed=921: Completed, raw=False, t=17, recovery=1
+scenario IndependentAStar      n=32 seed=  0: Completed, raw=False, t=23, recovery=1
+scenario IndependentAStar      n=32 seed= 23: Failed, raw=False, t=0, recovery=1
+scenario IndependentAStar      n=32 seed=921: Failed, raw=False, t=0, recovery=1
+scenario CooperativeAStar      n= 4 seed=  0: Completed, raw=True, t=12, recovery=0
+scenario CooperativeAStar      n= 4 seed= 23: Completed, raw=True, t=11, recovery=0
+scenario CooperativeAStar      n= 4 seed=921: Completed, raw=True, t=15, recovery=0
+scenario CooperativeAStar      n= 8 seed=  0: Completed, raw=True, t=14, recovery=0
+scenario CooperativeAStar      n= 8 seed= 23: Completed, raw=False, t=18, recovery=1
+scenario CooperativeAStar      n= 8 seed=921: Completed, raw=True, t=13, recovery=0
+scenario CooperativeAStar      n=16 seed=  0: Completed, raw=True, t=20, recovery=0
+scenario CooperativeAStar      n=16 seed= 23: Failed, raw=False, t=0, recovery=1
+scenario CooperativeAStar      n=16 seed=921: Completed, raw=True, t=17, recovery=0
+scenario CooperativeAStar      n=32 seed=  0: Completed, raw=True, t=23, recovery=0
+scenario CooperativeAStar      n=32 seed= 23: Failed, raw=False, t=0, recovery=1
+scenario CooperativeAStar      n=32 seed=921: Failed, raw=False, t=0, recovery=1
+scenario ConflictBasedSearch   n= 4 seed=  0: Completed, raw=True, t=12, recovery=0
+scenario ConflictBasedSearch   n= 4 seed= 23: Completed, raw=True, t=11, recovery=0
+scenario ConflictBasedSearch   n= 4 seed=921: Completed, raw=True, t=12, recovery=0
+scenario ConflictBasedSearch   n= 8 seed=  0: Completed, raw=True, t=14, recovery=0
+scenario ConflictBasedSearch   n= 8 seed= 23: Completed, raw=True, t=18, recovery=0
+scenario ConflictBasedSearch   n= 8 seed=921: Completed, raw=True, t=13, recovery=0
+scenario ConflictBasedSearch   n=16 seed=  0: Failed, raw=False, t=0, recovery=1
+scenario ConflictBasedSearch   n=16 seed= 23: Failed, raw=False, t=0, recovery=1
+scenario ConflictBasedSearch   n=16 seed=921: Failed, raw=False, t=0, recovery=1
+scenario ConflictBasedSearch   n=32 seed=  0: Failed, raw=False, t=0, recovery=1
+scenario ConflictBasedSearch   n=32 seed= 23: Failed, raw=False, t=0, recovery=1
+scenario ConflictBasedSearch   n=32 seed=921: Failed, raw=False, t=0, recovery=1
+PASS: 88902 assertions, 44 executed scenarios. Unity UI/clipboard are not exercised by this standalone harness.

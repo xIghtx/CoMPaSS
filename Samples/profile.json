@@ -1,0 +1,24 @@
+{
+  "MaxTimeSteps": 256,
+  "MaxExpandedNodesPerAgent": 100000,
+  "MaxHighLevelNodes": 10000,
+  "MaxPlanningMilliseconds": 60000,
+  "PriorityMode": 2,
+  "CbsHeuristic": 0,
+  "PythonExecutable": null,
+  "PrimalScriptPath": null,
+  "RecordReplay": true,
+  "Profile": {
+    "Heuristic": 0,
+    "Weight": 1,
+    "Neighbors": 0,
+    "TieBreak": 0,
+    "DistanceWeight": 1,
+    "CongestionWeight": 3,
+    "NarrownessWeight": 2,
+    "WaitWeight": 2,
+    "RecoveryWeight": 3,
+    "Seed": 23,
+    "AllowWait": true
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "width": 5,
+  "height": 5,
+  "blockedCells": "0000000000000000000000000",
+  "seed": 23,
+  "placementSeed": 42,
+  "algorithm": 0,
+  "maxTimeSteps": 72,
+  "maxExpandedNodesPerAgent": 30000,
+  "maxHighLevelNodes": 600,
+  "maxPlanningMilliseconds": 1200,
+  "priorityMode": 0,
+  "cbsHeuristic": 0,
+  "pythonExecutable": null,
+  "primalScriptPath": null,
+  "mapTemplate": 0,
+  "bottleneckCount": 1,
+  "passageWidth": 3,
+  "distribution": 0,
+  "profile": {
+    "Heuristic": 0,
+    "Weight": 1,
+    "Neighbors": 0,
+    "TieBreak": 0,
+    "DistanceWeight": 1,
+    "CongestionWeight": 3,
+    "NarrownessWeight": 2,
+    "WaitWeight": 2,
+    "RecoveryWeight": 3,
+    "Seed": 23,
+    "AllowWait": true
+  },
+  "obstacleDensity": 0,
+  "agents": [
+    {
+      "id": 0,
+      "startX": 0,
+      "startY": 2,
+      "goalX": 4,
+      "goalY": 2
+    },
+    {
+      "id": 1,
+      "startX": 4,
+      "startY": 2,
+      "goalX": 0,
+      "goalY": 2
+    }
+  ],
+  "replay": {
+    "allAgentsRouted": true,
+    "configuration": "T72/N30000/CT600/ms1200/PInputOrder/CBSNone/hManhattan/w1/orderUpRightDownLeft/tieLowerHeuristic/waitTrue/weights1:3:2:2:3",
+    "variant": null,
+    "priorityMilliseconds": 0,
+    "heuristicMilliseconds": 0,
+    "sampledManagedPeakBytes": 7162848,
+    "planningConflictCount": 1,
+    "heuristicLog": [],
+    "primalDecisions": [],
+    "priorities": [],
+    "logs": [
+      {
+        "agentId": 0,
+        "message": "\uC2DC\uAC04 \uB2E8\uACC4 \uACBD\uB85C 5\uCE78, \uC774\uB3D9 \uBE44\uC6A9 4, \uB3C4\uCC29 t=4"
+      },
+      {
+        "agentId": 1,
+        "message": "\uC2DC\uAC04 \uB2E8\uACC4 \uACBD\uB85C 5\uCE78, \uC774\uB3D9 \uBE44\uC6A9 4, \uB3C4\uCC29 t=4"
+      },
+      {
+        "agentId": 0,
+        "message": "t=2 Vertex \uCDA9\uB3CC \u00B7 Agent 1"
+      }
+    ],
+    "planningMilliseconds": 0.0465,
+    "managedMemoryDeltaBytes": 8224,
+    "totalMoveCost": 8,
+    "completionTime": 4,
+    "expandedNodes": 8,
+    "highLevelNodes": 0,
+    "generatedConstraints": 0,
+    "replanCount": 0,
+    "heuristicExpandedNodes": 0,
+    "waitActionCount": 0,
+    "failedAgentId": -1,
+    "failureReason": null,
+    "paths": [
+      {
+        "agentId": 0,
+        "x": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "y": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "agentId": 1,
+        "x": [
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "y": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    ],
+    "conflicts": [
+      {
+        "type": 0,
+        "firstAgentId": 0,
+        "secondAgentId": 1,
+        "timeStep": 2,
+        "firstX": 2,
+        "firstY": 2,
+        "secondX": 2,
+        "secondY": 2
+      }
+    ],
+    "cbsFrames": []
+  }
+}
